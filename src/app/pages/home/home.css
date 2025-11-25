@@ -1,0 +1,68 @@
+/* Entire background same as login page */
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #8c8f92, #eba64c);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Card container */
+.user-container {
+  background-color: #fff;
+  padding: 2.5rem 3rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: left;
+}
+
+/* Title */
+h2 {
+  color: #2e3a59;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Text styling */
+p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: #444;
+
+}
+
+strong {
+  color: #2e3a59;
+}
+
+/* Error message */
+.error p {
+  color: #ff3333;
+  background: #ffe5e5;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(255, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+/* Back button */
+.back-btn {
+  background: #2e3a59;
+  color: #fff;
+  border: none;
+  padding: 2%;
+  margin-right: 50%;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+
+  transition: 0.2s ease;
+
+}
+
+.back-btn:hover {
+  background: #1d2842;
+}
