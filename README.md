@@ -78,8 +78,7 @@ Make sure you have installed:
    git clone https://github.com/Dewey-byte/facebookApp.git
 Navigate to project directory
 
-bash
-Copy code
+
 cd facebookApp
 ▶️ Running the App
 🧱 Backend (PHP API)
@@ -92,18 +91,15 @@ Update API URL base in Angular service if needed.
 📦 Frontend (Angular)
 Install dependencies:
 
-bash
-Copy code
+
 npm install
 Run the Angular dev server:
 
-bash
-Copy code
+
 ng serve
 Open your browser and go to:
 
-arduino
-Copy code
+
 http://localhost:4200
 🧠 API Endpoints (Example)
 Below are placeholder API endpoints. Customize based on your backend routes.
